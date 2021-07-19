@@ -14,8 +14,8 @@
 ![Screenshot 2021-07-19 at 15 34 42](https://user-images.githubusercontent.com/86613309/126177960-f9f86aed-2fcd-4b2f-afc5-8d0c20384fbc.png)
 
 
-#User Experience Design
-User stories
+#UX
+
 
 1. As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation.
 2. As a First Time user, I want to be able to easily navigate throughout the site to find content.
