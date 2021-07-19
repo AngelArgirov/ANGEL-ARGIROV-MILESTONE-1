@@ -102,6 +102,22 @@ As a Frequent user, I want to sign up to the Newsletter so that I am emailed any
 
 
 # WIREFRAMES
+
+# PHONE WIREFRAMES
+
+![PHONE HOME](https://user-images.githubusercontent.com/86613309/126178092-a1d5d2c6-fc84-4577-ac70-2898dd827de2.png)
+![PHONE ABOUT](https://user-images.githubusercontent.com/86613309/126178110-4652207c-4f20-4eb4-b098-f4c0fbcd0b9c.png)
+![PHONE HIRE](https://user-images.githubusercontent.com/86613309/126178174-558cbde5-b365-4602-9ab9-9030549c3a45.png)
+![PHONE CONTACT](https://user-images.githubusercontent.com/86613309/126178184-26dce85e-5a6d-4ae2-8e83-8717bc1017dc.png)
+
+#DESKTOP WIREFRAMES
+
+![DESKTOP HOME](https://user-images.githubusercontent.com/86613309/126178257-9cf10335-816b-48a9-bcf4-bf448fb4dd49.png)
+![DESKTOP ABOUT](https://user-images.githubusercontent.com/86613309/126178269-71dadd2d-e5ea-4540-9276-4b3bc1d59c50.png)
+![DESKTOP HIRE](https://user-images.githubusercontent.com/86613309/126178281-d35da4fe-0fbc-4d10-8b1d-490be34d2a5c.png)
+![DESKTOP CONTACT](https://user-images.githubusercontent.com/86613309/126178298-34a43acc-9735-4ecf-85e9-3cab08f8401c.png)
+
+
                            
                            
 # PURPOSE
@@ -130,6 +146,8 @@ Testing of form validation will also be required to ensure the correct inputs ar
 
 Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
 
+<img width="1410" alt="Screenshot 2021-07-19 at 13 01 36" src="https://user-images.githubusercontent.com/86613309/126178349-b1bb8d00-345d-4bfc-8943-8f49b58428a4.png">
+<img width="1416" alt="Screenshot 2021-07-19 at 13 02 50" src="https://user-images.githubusercontent.com/86613309/126178376-40a38e3e-e66a-41d0-8a1e-831769dafd75.png">
 
 
 
