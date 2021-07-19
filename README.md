@@ -11,16 +11,30 @@
 3. hire.html
 4. contact.html
 
+#User Experience Design
+User stories
+
+1. As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation.
+2. As a First Time user, I want to be able to easily navigate throughout the site to find content.
+3. As a First Time user, I want to view the website and content clearly on my mobile device.
+
+Returning Visitor Goals
+
+As a Returning user, I want to contact the organisation so I can request more information.
+
+Frequent Visitor Goals
+
+As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
 
 # RESOURCES
 
-* https://www.crestinfotech.com
-* https://media.istockphoto.com
-* https://fonts.googleapis.com
-* https://stackoverflow.com
-* https://codepen.io
-* https://developer.mozilla.org
-* https://learn.codeinstitute.net
+* https://www.youtube.com === FROM THIS WEBSITE I TOOK THE VIDEO WHICH IS LOCATED IN THE HOME PAGE
+* https://media.istockphoto.com === FROM THIS WEBSITE I TOOK THE BACKGRAOUND IMAGE WHICH IS USED IN EVERY PAGE
+* https://fonts.googleapis.com === FROM THIS WEBSITE I TOOK THE FONT WHICH I PUT IN MY WEBSITE
+* https://stackoverflow.com === FROM THIS WEBSITE I JUST GOT A LITTLE HELP AS SIZING THE IMAGES, THE VIDEOS, AND THE GRADIENT FOR MY TEXT AND ALSO POSITIONING THEM 
+* https://codepen.io === FROM THIS WEBSITE I TOOK THE CODE FOR THE ICONS , THE WAVING HAND AND WEBKIT STRUCTURE
+* https://learn.codeinstitute.net === FROM THIS WEBSITE I TOOK THE KNOWLEDGE SO I CAN BUILD MY RESPONSIVE WEBSITE
 
 #STRUCTURE
 
@@ -29,7 +43,7 @@
       * NAVIGATION BAR -- HOME -- ABOUT -- WHY ME -- CONTACT 
       * BACKGROUND PHOTO === https://www.crestinfotech.com/wp-content/uploads/2019/01/portfolio-background.jpg
       * A HAEDING WITH MY NAME AND WHAT I DO
-      * VIDEO === https://media.istockphoto.com/videos/or-ui-designers-preparing-mockup-layout-prototype-before-application-video-id1304747154
+      * VIDEO === https://www.youtube.com/embed/EMTZUfIbiBk
       * FOOTER WITH SOCIAL LINKS TO CONNECT :
                            * https://www.facebook.com/
                            * https://www.twitter.com/
@@ -82,15 +96,38 @@
                            * https://myaccount.google.com/
                            * https://youtube.com/
                            * https://linkedin.com/     
+
+
+# WIREFRAMES
                            
                            
 # PURPOSE
+
+This Website was created for the sole purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course.  
+It was built using the knowledge gained from the HTML, CSS and User Centric Design modules
 
 1. TO SHOW THAT I AM VERY FRIENDLY PERSON
 
 2. I HAVE GOOD EXPERIENCE IN WHAT I DO 
 
 3. PEOPLE TO USE MY SERVICES FOR BUILDING A WEBSITE WITH AMAZING UI/UX DESIGN
+
+
+# TESTING
+
+As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
+
+No elements should overlap another container div. All carousel items should be controllable with the mouse as well as sliding on a timer.
+
+All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html.
+
+All links to external websites must open in a new browser.
+
+Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required.
+
+Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
+
+
 
 
 
