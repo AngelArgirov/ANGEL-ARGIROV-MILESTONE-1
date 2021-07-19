@@ -1,0 +1,316 @@
+   /* adding a google font */
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
+
+   /* positioning the background image */
+.hero{
+  height: 100%;
+  width: 100%;
+  background-image: url('https://www.crestinfotech.com/wp-content/uploads/2019/01/portfolio-background.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+   /* giving the backgraund image a darker gradient so the ux to be good */
+.hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.7)) , url(https://www.crestinfotech.com/wp-content/uploads/2019/01/portfolio-background.jpg);
+}
+
+background-image {
+opacity: 0.5;
+}
+/* positioning the navigation bar */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-top: 8%;
+}
+/* positioning and give a style to the logo */
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span{
+  color: #f9004d;
+  
+}
+/* making the hand icon an animation */
+.wave {
+  display: flex;
+  justify-content: center;
+  animation-name: wave-animation;  
+  animation-duration: 2.5s;        
+  animation-iteration-count: infinite;  
+  transform-origin: 50% 80%;       
+
+  
+}
+/* creating the actual animation */
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  
+  100% { transform: rotate( 0.0deg) }
+}
+/* giving the text a little bit style */
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 30px
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #f9004d;
+  transition: .3s;
+}
+
+h3,
+h1{
+  text-align: center;
+  padding-left: 10%;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding-right: 8%
+}
+.gradient-h1,h3 {
+  background-color: #f9004d;
+  background-image: linear-gradient(45deg, #f3ec78, #f9004d);
+  background-size: 100%;
+  background-repeat: repeat;
+  /* using a webkit structure for the gradient which is used for the headers and the letters */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+/* positioning the video in the center and giving to it a size */
+.videos {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  
+}
+/* responsive desing */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 380px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+/* positioning the newslatter form and giving a style to the first and last child */
+.newslatter form{
+  width: 50%;
+  max-width: 50%;
+  padding-left: 14%;
+  padding-bottom: 15%;
+  }
+  
+  .newslatter form input:first-child{
+    display: inline-block;
+    width: 139%;
+    padding: 14px 13px 14px 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 2px solid #f9004d;
+    border-radius: 30px;
+  }
+  
+  .newslatter form input:last-child{
+    width: 150%;
+    padding: 14px 13px 10px 13px; 
+    padding-left: 5%;
+    padding-right: 5%; 
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #868686;
+  }
+
+  
+  .textAdjust p{
+    margin-left: 5px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  /* positioning the text and the icons in hire page and making them fun and beautiful */
+  #hire.row{
+    padding: 10% 0;
+  }
+  #hire .fa{
+    /* make the size of the icons positioning them to the center and also giving them an a little animation */
+    color:#d3a034;
+    border-radius: 50%;
+    font-size: 500%;
+    margin: 10px;
+    transition-duration: 0.5s;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  
+  }
+  #hire .fa:hover{
+    
+    font-size: 60px;
+    }
+  
+  #hire h3{
+    color: #DFBA69;
+    text-align: center;
+  }
+  #hire p{
+    line-height: 1.7;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 3%;
+  }
+/* giving the headers and the text style and */
+.about-section{
+  width: 80%;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 30px; 
+  margin:auto;
+  margin-top: 5%;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.about-section h1{
+ font-size: 40px;
+ letter-spacing: 4px;
+ font-weight: 100;
+ background-color: #f9004d;
+ background-image: linear-gradient(45deg, #f9004d , #f3ec78);
+ background-size: 100%;
+  background-repeat: repeat;
+
+  /* using a webkit structure for the gradient which is used for the headers and the letters */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.about-section h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+ }
+
+ .about-section h6{
+   font-size: 22px; 
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+ }
+
+
+.gradient-h1,h5{
+  background-color: #f9004d;
+  background-image: linear-gradient(20deg, #f9004d , #f3ec78);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+span{
+  color: #f9004d;
+  
+}
+/* creating and styling the text in the footer */
+footer{
+  background: black;
+  height: auto;
+  width: 100%;
+  font-family: 'Open Sans';
+  padding-top: 40px;
+  color: white;
+
+}
+
+.footer-content h1{
+  text-align: center;
+  font-size: 16px;
+  padding-left: 8% ;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-bottom p{
+ text-align: center;
+ font-size: 20px;
+ letter-spacing: 2px;
+}
+/* centering and styling the icons in the footer */
+.socials{
+  list-style: none;
+  display: flex;
+  padding-left: 0%;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: white;
+}
+
+.socials a i{
+  font-size: 1.1rem;
+  transition: .3s;
+}
+
+.socials a:hover i{
+  color:#f9004d
+}
+
+.footer-bottom{
+  background-color: rgba(36, 37, 36, 0.658)
+}
