@@ -110,7 +110,7 @@ As a Frequent user, I want to sign up to the Newsletter so that I am emailed any
 ![PHONE HIRE](https://user-images.githubusercontent.com/86613309/126178174-558cbde5-b365-4602-9ab9-9030549c3a45.png)
 ![PHONE CONTACT](https://user-images.githubusercontent.com/86613309/126178184-26dce85e-5a6d-4ae2-8e83-8717bc1017dc.png)
 
-#DESKTOP WIREFRAMES
+# DESKTOP WIREFRAMES
 
 ![DESKTOP HOME](https://user-images.githubusercontent.com/86613309/126178257-9cf10335-816b-48a9-bcf4-bf448fb4dd49.png)
 ![DESKTOP ABOUT](https://user-images.githubusercontent.com/86613309/126178269-71dadd2d-e5ea-4540-9276-4b3bc1d59c50.png)
